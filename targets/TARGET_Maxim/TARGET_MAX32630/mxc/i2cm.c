@@ -98,7 +98,7 @@ static const uint32_t clk_div_table[3][8] = {
         // 84000000 NOT SUPPORTED
         0,
         // 96000000
-        ((48 << MXC_F_I2CM_FS_CLK_DIV_FS_FILTER_CLK_DIV_POS) |
+        ((96 << MXC_F_I2CM_FS_CLK_DIV_FS_FILTER_CLK_DIV_POS) |
             (164 << MXC_F_I2CM_FS_CLK_DIV_FS_SCL_HI_CNT_POS) |
             (576 << MXC_F_I2CM_FS_CLK_DIV_FS_SCL_LO_CNT_POS)),
     },
